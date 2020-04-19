@@ -1,0 +1,116 @@
+[clustalw2]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/clustalw2
+
+[commandline]
+aligned = False
+auto = False
+datatype = dna
+input = /projects/tallis/qikaiy2/pasta_project/output/16S.T/16ST_temp_iteration_2_seq_unmasked_alignment.mapped
+job = 16ST
+keepalignmenttemps = False
+keeptemp = False
+multilocus = False
+raxml_search_after = False
+treefile = /projects/tallis/qikaiy2/pasta_project/output/16S.T/16ST_temp_iteration_2_tree.tre.mapped
+two_phase = False
+untrusted = False
+
+[contralign]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/contralign
+
+[fakealigner]
+path = 
+
+[faketree]
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/faketree
+
+[fasttree]
+args = 
+model = -gtr -gamma -fastest
+options = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/fasttree
+
+[ginsi]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/ginsi
+
+[hmmeralign]
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/hmmeralign
+
+[homologs]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/homologs
+
+[mafft]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/mafft
+
+[muscle]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/muscle
+
+[opal]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/opal.jar
+
+[padaligner]
+path = 
+
+[prank]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/prank
+
+[probalign]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/probalign
+
+[probcons]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/probcons
+
+[randtree]
+path = 
+
+[raxml]
+args = 
+model = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/raxml
+
+[sate]
+after_blind_iter_term_limit = -1
+after_blind_iter_without_imp_limit = -1
+after_blind_time_term_limit = -1.0
+after_blind_time_without_imp_limit = -1.0
+aligner = mafft
+blind_after_iter_without_imp = -1
+blind_after_time_without_imp = -1.0
+blind_after_total_iter = 0
+blind_after_total_time = -1.0
+blind_mode_is_final = True
+break_strategy = mincluster
+build_mst = False
+iter_limit = 1
+iter_without_imp_limit = -1
+mask_gappy_sites = 7
+max_mem_mb = 1024
+max_subproblem_frac = 0.0
+max_subproblem_size = 200
+max_subtree_diameter = 2.5
+merger = opal
+min_subproblem_size = 0
+move_to_blind_on_worse_score = True
+num_cpus = 20
+output_directory = /projects/tallis/qikaiy2/pasta_project/output/16S.T/more_iter_i
+return_final_tree_and_alignment = True
+start_tree_search_from_current = True
+time_limit = -1.0
+time_without_imp_limit = -1.0
+tree_estimator = faketree
+treeshrink_filter = False
+
+[treeshrink]
+args = 
+path = /projects/tallis/qikaiy2/softwares/pasta/bin/treeshrink
+
